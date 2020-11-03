@@ -1,0 +1,4 @@
+shelltitle "$ |bash"
+defshell -zsh
+defscrollback 100000
+termcapinfo xterm ti@:te@
