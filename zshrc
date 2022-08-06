@@ -121,3 +121,5 @@ alias k=kubectl
 alias work='pushd ~/code/digraph'
 
 export PATH=/home/walker/bin:$PATH
+
+unsetopt BEEP
