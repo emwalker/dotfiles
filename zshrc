@@ -123,3 +123,7 @@ alias work='pushd ~/code/digraph'
 export PATH=/home/walker/bin:$PATH
 
 unsetopt BEEP
+
+source <(kubectl completion zsh)
+source "/home/$USER/.kube-ps1/kube-ps1.sh"
+PROMPT='$(kube_ps1)'$PROMPT
