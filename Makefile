@@ -4,4 +4,5 @@ links:
 	[ -f ~/.zshrc ] || ln -s ${PWD}/zshrc ~/.zshrc
 	[ -f ~/.bashrc ] || ln -s ${PWD}/bashrc ~/.bashrc
 	[ -f ~/.inputrc ] || ln -s ${PWD}/inputrc ~/.inputrc
-	[ -f ~/.config/fish ] || ln -s ${PWD}/fish ~/.config/fish
+	[ -d ~/.config/fish ] || ln -s ${PWD}/fish ~/.config/fish
+	[ -f ~/.gitconfig ] || ln -s ${PWD}/gitconfig ~/.gitconfig
