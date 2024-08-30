@@ -8,3 +8,4 @@ links:
 	[ -f ~/.gitconfig ] || ln -s ${PWD}/gitconfig ~/.gitconfig
 	[ -d ~/.config/nvim ] || ln -s ${PWD}/nvim ~/.config/nvim
 	[ -f ~/.nvmrc ] || ln -s ${PWD}/nvmrc ~/.nvmrc
+	[ -f  ~/.config/Code/User/settings.json ] || ln -s ${PWD}/Code/User/settings.json ~/.config/Code/User/settings.json

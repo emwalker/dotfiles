@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "merko's green theme",
+    "rust-analyzer.workspace.discoverConfig": null,
+    "editor.rulers": [100]
+}
