@@ -4,4 +4,5 @@ if status is-interactive
     fish_git_prompt
     set -g __fish_git_prompt_showdirtystate 1
     source "$HOME/.cargo/env.fish"
+    #load_nvm > /dev/stderr
 end
