@@ -2,3 +2,5 @@
 [user]
 	name = Eric Walker
 	email = eric.walker@gmail.com
+[core]
+	editor = vim
