@@ -9,3 +9,4 @@ links:
 	[ -d ~/.config/nvim ] || ln -s ${PWD}/nvim ~/.config/nvim
 	[ -f ~/.nvmrc ] || ln -s ${PWD}/nvmrc ~/.nvmrc
 	[ -f  ~/.config/Code/User/settings.json ] || ln -s ${PWD}/Code/User/settings.json ~/.config/Code/User/settings.json
+	[ -f  ~/.gitignore ] || ln -s ${PWD}/gitignore ~/.gitignore

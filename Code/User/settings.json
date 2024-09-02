@@ -4,6 +4,24 @@
     "editor.rulers": [100],
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
+        "editor.inlayHints.enabled": "offUnlessPressed",
+        "editor.formatOnSave": true
+    },
+    "[sql]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation":false
+    },
+    "[typescript][typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
         "editor.formatOnSave": true
     }
 }

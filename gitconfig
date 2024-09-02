@@ -4,3 +4,4 @@
 	email = eric.walker@gmail.com
 [core]
 	editor = vim
+	excludesFile = ~/.gitignore
