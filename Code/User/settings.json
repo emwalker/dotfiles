@@ -23,5 +23,6 @@
         "editor.insertSpaces": true,
         "editor.detectIndentation": false,
         "editor.formatOnSave": true
-    }
+    },
+    "gitlens.codeLens.enabled": false
 }
