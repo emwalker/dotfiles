@@ -1,4 +1,3 @@
-function work --wraps='pushd ~/code/emwalker' --description 'alias work=pushd ~/code/emwalker'
-  pushd ~/code/emwalker $argv
-        
+function work --wraps='pushd ~/code/boldpenguin' --description 'alias work=pushd ~/code/boldpenguin'
+  pushd ~/code/boldpenguin $argv
 end
