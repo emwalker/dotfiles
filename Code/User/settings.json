@@ -1,7 +1,7 @@
 {
     "workbench.colorTheme": "merko's green theme",
     "rust-analyzer.workspace.discoverConfig": null,
-    "editor.rulers": [80, 100],
+    "editor.rulers": [100],
     "[rust]": {
         "editor.defaultFormatter": "rust-lang.rust-analyzer",
         "editor.inlayHints.enabled": "offUnlessPressed",
