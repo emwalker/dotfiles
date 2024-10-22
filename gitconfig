@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Eric Walker
-	email = eric.walker@gmail.com
+	email = eric.walker@noldor.com
 [core]
 	editor = vim
 	excludesFile = ~/.gitignore
