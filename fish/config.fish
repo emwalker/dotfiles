@@ -11,8 +11,14 @@ if status is-interactive
     #load_nvm > /dev/stderr
     fish_add_path /usr/local/go/bin
     fish_add_path /home/walker/go/bin
+    fish_add_path /home/walker/go/bin
 
     if test -f ~/.asdf/asdf.fish
         source ~/.asdf/asdf.fish
     end
+
+    ~/.rbenv/bin/rbenv init - --no-rehash fish | source
 end
+
+# Created by `pipx` on 2024-12-01 20:00:47
+set PATH $PATH /home/walker/.local/bin
