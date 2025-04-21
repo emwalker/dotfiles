@@ -1,8 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     set XDG_CURRENT_DESKTOP Sway
-    set EDITOR vim
-    set GH_EDITOR vim
+    set -x EDITOR vim
 
     fish_vi_key_bindings
     fish_git_prompt
