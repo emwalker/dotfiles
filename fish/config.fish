@@ -16,7 +16,9 @@ if status is-interactive
         source ~/.asdf/asdf.fish
     end
 
-    ~/.rbenv/bin/rbenv init - --no-rehash fish | source
+    if test -f ~/.rbenv/bin/rbenv
+        ~/.rbenv/bin/rbenv init - --no-rehash fish | source
+    end
 end
 
 # Created by `pipx` on 2024-12-01 20:00:47

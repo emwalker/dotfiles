@@ -41,7 +41,8 @@
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/.git/subtree-cache/**": true,
-        "**/node_modules/*/**": true
+        "**/node_modules/*/**": true,
+        "**/tmp/*/**": true
     },
     "workbench.editorAssociations": {
         "*.xlsx": "default"
