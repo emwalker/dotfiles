@@ -47,8 +47,15 @@
     "workbench.editorAssociations": {
         "*.xlsx": "default"
     },
-    "workbench.colorTheme": "GreenSpace Sober II",
+    "workbench.colorTheme": "DuoTone Dark Sea",
     "chat.commandCenter.enabled": false,
     "window.commandCenter": false,
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "ruby": false
+    }
 }

@@ -11,6 +11,7 @@ if status is-interactive
     fish_add_path /usr/local/go/bin
     fish_add_path /home/walker/go/bin
     fish_add_path /home/walker/go/bin
+    fish_add_path /home/walker/.pyenv/versions/3.12.7/bin
 
     if test -f ~/.asdf/asdf.fish
         source ~/.asdf/asdf.fish
