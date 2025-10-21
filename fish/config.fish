@@ -13,9 +13,10 @@ if status is-interactive
     fish_add_path /home/walker/go/bin
     fish_add_path /home/walker/.pyenv/versions/3.12.7/bin
 
-    if test -f ~/.asdf/asdf.fish
-        source ~/.asdf/asdf.fish
-    end
+    # asdf configuration for v0.16.0+
+    set -gx ASDF_DATA_DIR /home/walker/.asdf
+    set -gx PATH $ASDF_DATA_DIR/shims $PATH
+    set -gx PATH /home/walker/bin $PATH
 
     if test -f ~/.rbenv/bin/rbenv
         ~/.rbenv/bin/rbenv init - --no-rehash fish | source
