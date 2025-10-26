@@ -17,7 +17,7 @@ function fish_prompt
         set suffix '>'
     end
 
-    echo -n -s (set_color $fish_color_user) $USER (set_color normal) '@' (set_color $fish_color_host) (prompt_hostname) (set_color normal) ' ' (set_color $color_cwd) (prompt_pwd) (set_color normal) (fish_vcs_prompt) ' ' (set_color normal)
+    echo -n -s (set_color $fish_color_user) $USER (set_color normal) '@' (set_color $fish_color_host) (prompt_hostname) (set_color normal) ' ' (set_color $color_cwd) (prompt_pwd) (set_color normal) (fish_vcs_prompt) (set_color normal)
 
     if test $last_status -ne 0
         set_color $fish_color_error
